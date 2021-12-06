@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Fredoka+One&family=Montserrat:wght@700&display=swap");
+
+h1 {
+  font-family: "Fredoka One", "sans-serif";
+  color: white;
+  text-align: center;
+}
+
+body {
+  background-color: #3b7c98;
+}
+
+.display {
+  font-family: "Fredoka One", "sans-serif";
+  color: #eeeeee;
+  text-align: center;
+}
+
+.grid {
+  width: 606px;
+  height: 606px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  background-color: #b39348;
+}
+
+.square {
+  height: 200px;
+  width: 200px;
+  border: solid white 1px;
+}
+
+.mole {
+  background-image: url("grogu.png");
+  background-size: cover;
+}
